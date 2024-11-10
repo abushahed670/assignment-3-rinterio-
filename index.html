@@ -208,32 +208,49 @@
                 </button>
             </div>
             <h1 class="text-4xl text-center font-bold my-4">Let’s Discuss Next Project</h1>
-            <p class="text-center text-sm text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+            <p class="text-center text-sm text-gray-600">The barn house captivates with its blend of rustic charm and
+                modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
 
             <div class="w-full flex justify-center mt-6">
-                <div class="flex flex-row-reverse ">
+                <div class="flex-1 flex-col flex-col-reverse lg:flex-row-reverse ">
                     <input type="text" placeholder="First Name"
-                        class="input input-bordered input-lg w-full max-w-lg border-none rounded-3xl max-w-full mx-5 " />
+                        class="input input-bordered input-lg w-full max-w-lg border-none rounded-3xl max-w-full mx-10" />
                     <input type="text" placeholder="Last Name"
-                        class="input input-bordered input-lg w-full max-w-xs border-none rounded-3xl max-w-full" />
+                        class="input input-bordered input-lg w-full max-w-lg border-none rounded-3xl max-w-full mx-10 mt-5" />
                 </div>
             </div>
 
             <div class="w-full flex justify-center mt-6">
-                <div class="flex flex-cols-1 lg:flex-row-reverse ">
+                <div class="flex-1 flex-col flex-col-reverse lg:flex-row-reverse ">
                     <input type="number" placeholder="Phone number"
-                        class="input input-bordered input-lg w-full max-w-lg border-none rounded-3xl max-w-full mx-5 " />
+                        class="input input-bordered input-lg w-full max-w-lg border-none rounded-3xl max-w-full mx-10 " />
                     <input type="email" placeholder="Email"
-                        class="input input-bordered input-lg w-full max-w-xs border-none rounded-3xl max-w-full" />
+                        class="input input-bordered input-lg w-full max-w-lg mt-5 border-none rounded-3xl max-w-full mx-10" />
                 </div>
             </div>
             <div class="flex justify-center mt-6">
-                <textarea placeholder="Write your message here" class="textarea textarea-bordered textarea-lg w-full max-w-lg my-7"></textarea>
+                <textarea placeholder="Write your message here"
+                    class="textarea textarea-bordered textarea-lg w-full max-w-full w-full mx-10 my-7"></textarea>
             </div>
 
         </section>
     </main>
-    <footer>
+    <footer class="footer footer-center bg-black text-white rounded p-10">
+        <div class="navbar-center">
+            <a class="btn btn-ghost text-xl"><span
+                    class="w-7 h-7 items-center rounded-full bg-background-color-2">&#8599;</span>Rinterio</a>
+        </div>
+        <p class="text-center text-gray-600 text-xs">The barn house captivates with its blend of rustic charm and modern
+            sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        <nav class="grid grid-cols-1 lg:grid-flow-col gap-20">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">Service</a>
+            <a class="link link-hover">Portfolio</a>
+            <a class="link link-hover">Blogs</a>
+            <a class="link link-hover">Service</a>
+        </nav>
+        <a class="btn bg-background-color-2 text-center flex rounded-full">Book Consult<span
+                class="w-8 h-8 items-center  pt-2 rounded-full bg-black text-white">&#8599;</span></a>
 
     </footer>
 </body>
